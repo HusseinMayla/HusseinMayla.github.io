@@ -1,0 +1,25 @@
+.order:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.order {
+    transition: transform 0.3s ease-in-out;
+    background-color: rgb(206, 206, 206);
+}
+
+.more-info-btn {
+background: linear-gradient(to right, black 50%, white 50%);
+background-size: 200% 100%;
+background-position: right bottom;
+transition: all .5s ease-out;
+}
+
+.more-info-btn:hover {
+background-position: left bottom;
+color: white;
+}
+html, body {
+height: 100%;
+margin: 0;
+}
